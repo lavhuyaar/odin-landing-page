@@ -131,3 +131,36 @@ h3 {
     background-image: url(header-img.jpg);
     background-size: cover;
 }
+
+.quote-box {
+    height: 400px;
+    width: 100%;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-by {
+    width: 47%;
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    color: #1f2937;
+}
