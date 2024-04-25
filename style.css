@@ -150,7 +150,7 @@ h3 {
     align-items: center;
 }
 
-.quote p {
+.quote-p {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
@@ -163,4 +163,46 @@ h3 {
     display: flex;
     justify-content: flex-end;
     color: #1f2937;
+}
+
+.message-box {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    height: 40%;
+    width: 60%;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #e5e7eb;
+
+}
+
+.message-text-first {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.message-text-second {
+    font-size: 18px;
+}
+
+.btn-two {
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 3px solid #f9faf8;
+    height: 37px;
+    width: 120px;
+    padding: 5px;
 }
